@@ -19,8 +19,18 @@ export default async function HomePage({
     <>
       <section className="relative overflow-hidden">
         <div className="stripe-bg">
-          <div className="mx-auto max-w-6xl px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
-            <div>
+          <div className="mx-auto max-w-6xl px-6 py-20 md:py-28 grid md:grid-cols-3 gap-8 items-center">
+            <WoodFrame className="aspect-square overflow-hidden order-1">
+              <video
+                src={assetPath("/videos/toast1.mp4")}
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-cover"
+              />
+            </WoodFrame>
+            <div className="order-2 text-center">
               <p className="text-wood-dark font-medium tracking-wide">
                 {t("kicker")}
               </p>
@@ -35,14 +45,14 @@ export default async function HomePage({
                 {t("cta")}
               </Link>
             </div>
-            <WoodFrame className="aspect-square">
-              <Image
-                src={assetPath("/images/hero.jpeg")}
-                alt="the toastery"
-                width={600}
-                height={600}
+            <WoodFrame className="aspect-square overflow-hidden order-3">
+              <video
+                src={assetPath("/videos/toast2.mp4")}
+                autoPlay
+                muted
+                loop
+                playsInline
                 className="w-full h-full object-cover"
-                priority
               />
             </WoodFrame>
           </div>
