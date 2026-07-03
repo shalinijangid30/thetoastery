@@ -135,7 +135,7 @@ export function EnquiryForm() {
         <div className="flex flex-col sm:flex-row gap-3 mt-2">
           <a
             href={mailtoLink({ subject, body: buildBody() })}
-            className="text-center bg-pastel-green text-white hover:opacity-90 transition-opacity px-6 py-3 rounded-sm font-medium"
+            className="text-center bg-wood text-white hover:opacity-90 transition-opacity px-6 py-3 rounded-sm font-medium"
           >
             {t("submitEmail")}
           </a>
@@ -143,7 +143,7 @@ export function EnquiryForm() {
             href={whatsappLink(`${subject}\n\n${buildBody()}`)}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-center bg-pastel-green text-white hover:opacity-90 transition-opacity px-6 py-3 rounded-sm font-medium"
+            className="text-center bg-wood text-white hover:opacity-90 transition-opacity px-6 py-3 rounded-sm font-medium"
           >
             {t("submitWhatsapp")}
           </a>
