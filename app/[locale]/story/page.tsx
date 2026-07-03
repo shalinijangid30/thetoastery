@@ -18,12 +18,13 @@ export default async function StoryPage({
       <h1 className="text-4xl font-bold mt-2">{t("title")}</h1>
 
       <div className="grid md:grid-cols-2 gap-12 items-center mt-10">
-        <WoodFrame className="aspect-[4/3]">
-          <Image
-            src={assetPath("/images/story-1.jpeg")}
-            alt={t("title")}
-            width={600}
-            height={450}
+        <WoodFrame className="aspect-[4/3] overflow-hidden">
+          <video
+            src={assetPath("/videos/toast1.mp4")}
+            autoPlay
+            muted
+            loop
+            playsInline
             className="w-full h-full object-cover"
           />
         </WoodFrame>
@@ -39,12 +40,11 @@ export default async function StoryPage({
 
       <div className="grid grid-cols-2 gap-4 mt-16">
         <WoodFrame className="aspect-video overflow-hidden">
-          <video
-            src={assetPath("/videos/toast1.mp4")}
-            autoPlay
-            muted
-            loop
-            playsInline
+          <Image
+            src={assetPath("/images/hero.jpeg")}
+            alt={t("title")}
+            width={600}
+            height={340}
             className="w-full h-full object-cover"
           />
         </WoodFrame>
