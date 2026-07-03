@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "home",
+    "menu": "menu",
+    "story": "our story",
+    "location": "location",
+    "enquire": "shop & events",
+    "contact": "contact"
+  },
+  "hero": {
+    "kicker": "msheireb, doha",
+    "title": "toasted with love, served with soul",
+    "subtitle": "specialty coffee & ice-cream toasts, made fresh every day",
+    "cta": "view menu"
+  },
+  "home": {
+    "aboutTitle": "a little café with a big heart",
+    "aboutBody": "the toastery started as a simple idea: pair great coffee with playful, generous toasts. today we're a small corner of msheireb where locals and visitors slow down for a moment.",
+    "galleryTitle": "from our counter",
+    "ctaTitle": "planning something special?",
+    "ctaBody": "from birthdays to brand pop-ups, we cater events and take shop enquiries.",
+    "ctaButton": "get in touch"
+  },
+  "menu": {
+    "title": "menu",
+    "subtitle": "small batch, made to order",
+    "categories": {
+      "coffee": "coffee",
+      "iceCreamToasts": "ice-cream toasts",
+      "seasonal": "seasonal specials"
+    },
+    "items": {
+      "coffee": [
+        { "name": "espresso", "desc": "single origin, pulled fresh", "price": "QAR 12" },
+        { "name": "flat white", "desc": "silky microfoam, double shot", "price": "QAR 18" },
+        { "name": "iced spanish latte", "desc": "condensed milk, cold brew", "price": "QAR 20" },
+        { "name": "toastery mocha", "desc": "house cocoa, espresso, steamed milk", "price": "QAR 22" }
+      ],
+      "iceCreamToasts": [
+        { "name": "classic vanilla toast", "desc": "brioche, vanilla bean ice cream, honey drizzle", "price": "QAR 28" },
+        { "name": "pistachio crunch", "desc": "pistachio ice cream, toasted nuts, date syrup", "price": "QAR 32" },
+        { "name": "biscoff bliss", "desc": "biscoff ice cream, cookie crumble, caramel", "price": "QAR 30" },
+        { "name": "berry cream toast", "desc": "strawberry ice cream, fresh berries, cream", "price": "QAR 30" }
+      ],
+      "seasonal": [
+        { "name": "seasonal special", "desc": "ask our team what's fresh this week", "price": "market price" }
+      ]
+    },
+    "note": "prices and availability may vary — ask in-store for today's specials"
+  },
+  "story": {
+    "title": "our story",
+    "kicker": "how it started",
+    "body1": "the toastery was born from a love of slow mornings and good company. we roast with care, source thoughtfully, and build every toast by hand.",
+    "body2": "you'll find us tucked into msheireb downtown doha — a quiet spot to catch up with a friend, get some work done, or just enjoy a really good coffee.",
+    "quote": "every cup and every toast is made the same way: with intention."
+  },
+  "location": {
+    "title": "find us",
+    "address": "msheireb downtown, doha, qatar",
+    "hoursTitle": "opening hours",
+    "hours": [
+      { "day": "saturday – wednesday", "time": "8:00 am – 10:00 pm" },
+      { "day": "thursday – friday", "time": "8:00 am – 11:00 pm" }
+    ],
+    "directions": "get directions"
+  },
+  "enquiry": {
+    "title": "shop & events",
+    "subtitle": "let's plan something great together",
+    "modeGeneral": "shop enquiry",
+    "modeEvents": "events & catering",
+    "name": "your name",
+    "email": "email",
+    "phone": "phone",
+    "message": "message",
+    "date": "event date",
+    "headcount": "headcount",
+    "occasion": "occasion",
+    "submitEmail": "send via email",
+    "submitWhatsapp": "chat on whatsapp",
+    "required": "required"
+  },
+  "contact": {
+    "title": "contact & socials",
+    "body": "say hello, or find us on social media.",
+    "email": "email us",
+    "whatsapp": "whatsapp us",
+    "instagram": "instagram"
+  },
+  "footer": {
+    "rights": "all rights reserved.",
+    "tagline": "msheireb, doha, qatar"
+  }
+}
