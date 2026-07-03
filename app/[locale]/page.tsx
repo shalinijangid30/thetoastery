@@ -30,7 +30,7 @@ export default async function HomePage({
                 className="w-full h-full object-cover"
               />
             </WoodFrame>
-            <div className="order-2 text-center">
+            <div className="order-2 text-center animate-fade-in-up">
               <h1 className="text-4xl md:text-5xl font-bold mt-3 leading-tight">
                 {t("title")}
               </h1>
