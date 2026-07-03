@@ -68,7 +68,7 @@ export default async function HomePage({
       <StripeSection>
         <h2 className="text-3xl font-bold mb-8">{h("galleryTitle")}</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {["/images/menu-1.jpeg", "/images/menu-2.jpeg", "/images/gallery-1.jpeg", "/images/hero.jpeg"].map(
+          {["/images/menu-1.jpeg", "/images/menu-2.jpeg", "/images/gallery-1.jpeg", "/images/gallery-2.jpeg"].map(
             (rawSrc) => (
               <WoodFrame key={rawSrc} className="aspect-square">
                 <Image

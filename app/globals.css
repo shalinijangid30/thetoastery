@@ -25,7 +25,13 @@ html {
 }
 
 body {
-  background: var(--cream);
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--cream) 0px,
+    var(--cream) 48px,
+    #fff5db 48px,
+    #fff5db 96px
+  );
   color: var(--ink);
 }
 
