@@ -20,7 +20,7 @@ export default async function HomePage({
       <section className="relative overflow-hidden">
         <div className="stripe-bg">
           <div className="mx-auto max-w-[1400px] px-6 py-20 md:py-28 grid md:grid-cols-[auto_1fr_auto] gap-8 items-center">
-            <WoodFrame className="aspect-video overflow-hidden order-1 w-full md:w-[520px]">
+            <WoodFrame className="aspect-video overflow-hidden order-1 w-full md:w-[520px] animate-slide-in-right">
               <video
                 src={assetPath("/videos/toast1.mp4")}
                 autoPlay
@@ -42,7 +42,7 @@ export default async function HomePage({
                 {t("cta")}
               </Link>
             </div>
-            <WoodFrame className="aspect-video overflow-hidden order-3 w-full md:w-[520px]">
+            <WoodFrame className="aspect-video overflow-hidden order-3 w-full md:w-[520px] animate-slide-in-left">
               <video
                 src={assetPath("/videos/toast2.mp4")}
                 autoPlay
