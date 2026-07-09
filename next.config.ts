@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
-const basePath = process.env.GITHUB_PAGES ? "/thetoastery" : "";
+const basePath = process.env.GITHUB_PAGES ? "/thetoasterydoha" : "";
 
 const nextConfig: NextConfig = {
   output: "export",
